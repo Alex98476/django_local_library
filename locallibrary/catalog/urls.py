@@ -2,5 +2,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    # Tu budú definované URL patterny pre aplikáciu 'catalog'
+    path('', views.index),  # Tento riadok bude iba cesta bez menovania
 ]
+
+
